@@ -1,4 +1,4 @@
-void main(){
+void main() {
   // ============= Variables =============
 
   /*
@@ -17,7 +17,7 @@ void main(){
   int x = 41;
 
   // Dynamic
-  dynamic firstName = "Bob".
+  dynamic firstName = "Bob";
 
   // ============= const and final =============
 
@@ -31,9 +31,9 @@ void main(){
   var yourName;
 
   // Null safty
-  String? test1  // Nullable type. Can be `null` or string.
+  String? test1; // Nullable type. Can be `null` or string.
 
-  String test2   // Non-nullable type. Cannot be `null` but can be string.
+  String test2; // Non-nullable type. Cannot be `null` but can be string.
 
   print(yourName); // null
 }

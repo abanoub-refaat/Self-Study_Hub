@@ -1,4 +1,4 @@
-void main(List<String> args){
+void main(List<String> args) {
   print(args);
 
   assert(args.length == 2);

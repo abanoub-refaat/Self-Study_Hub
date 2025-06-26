@@ -1,4 +1,4 @@
-void main(){
+void main() {
   // ============= Data Types =============
 
   // Strings
