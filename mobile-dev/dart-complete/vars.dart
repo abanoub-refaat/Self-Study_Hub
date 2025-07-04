@@ -9,15 +9,19 @@ void main() {
   */
 
   var test = "Bob";
+  print(test);
 
   // Strings
   String name = "Abanoub";
+  print(name);
 
   // Integers
   int x = 41;
+  print(x);
 
   // Dynamic
   dynamic firstName = "Bob";
+  print(firstName);
 
   // ============= const and final =============
 
@@ -27,13 +31,18 @@ void main() {
   // use final if you know what the value is at runtime
   final String nickName = "J";
 
+  print(fullName + " " + nickName);
+
   // declaring and not using is possible
   var yourName;
 
   // Null safty
   String? test1; // Nullable type. Can be `null` or string.
 
-  String test2; // Non-nullable type. Cannot be `null` but can be string.
+  print(test1);
 
+  String test2 =
+      "cannot be null"; // Non-nullable type. Cannot be `null` but can be string.
+  print(test2);
   print(yourName); // null
 }
